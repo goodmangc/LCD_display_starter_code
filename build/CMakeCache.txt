@@ -154,7 +154,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/default
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/LCD_display_starter_code
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -210,7 +210,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=default
+CMAKE_PROJECT_NAME:STATIC=LCD_display_starter_code
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=3.6.5
@@ -322,6 +322,15 @@ IDF_TOOLCHAIN:STRING=gcc
 //Install Mbed TLS headers.
 INSTALL_MBEDTLS_HEADERS:BOOL=ON
 
+//Value Computed by CMake
+LCD_display_starter_code_BINARY_DIR:STATIC=C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build
+
+//Value Computed by CMake
+LCD_display_starter_code_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+LCD_display_starter_code_SOURCE_DIR:STATIC=C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code
+
 //Explicitly link Mbed TLS library to pthread.
 LINK_WITH_PTHREAD:BOOL=OFF
 
@@ -360,15 +369,6 @@ USE_SHARED_MBEDTLS_LIBRARY:BOOL=OFF
 
 //Build Mbed TLS static library.
 USE_STATIC_MBEDTLS_LIBRARY:BOOL=ON
-
-//Value Computed by CMake
-default_BINARY_DIR:STATIC=C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build
-
-//Value Computed by CMake
-default_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-default_SOURCE_DIR:STATIC=C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code
 
 //Value Computed by CMake
 esp-idf_BINARY_DIR:STATIC=C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/esp-idf
@@ -596,7 +596,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/default
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/LCD_display_starter_code
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure

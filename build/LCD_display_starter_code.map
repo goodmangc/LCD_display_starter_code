@@ -729,10 +729,10 @@ C:/Espressif/frameworks/esp-idf-v5.5.2/tools/tools/xtensa-esp-elf/esp-14.2.0_202
 
 Discarded input sections
 
- .text          0x00000000        0x0 CMakeFiles/default.elf.dir/project_elf_src_esp32s3.c.obj
- .data          0x00000000        0x0 CMakeFiles/default.elf.dir/project_elf_src_esp32s3.c.obj
- .bss           0x00000000        0x0 CMakeFiles/default.elf.dir/project_elf_src_esp32s3.c.obj
- .comment       0x00000000       0x30 CMakeFiles/default.elf.dir/project_elf_src_esp32s3.c.obj
+ .text          0x00000000        0x0 CMakeFiles/LCD_display_starter_code.elf.dir/project_elf_src_esp32s3.c.obj
+ .data          0x00000000        0x0 CMakeFiles/LCD_display_starter_code.elf.dir/project_elf_src_esp32s3.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/LCD_display_starter_code.elf.dir/project_elf_src_esp32s3.c.obj
+ .comment       0x00000000       0x30 CMakeFiles/LCD_display_starter_code.elf.dir/project_elf_src_esp32s3.c.obj
  .literal.esp_app_get_description
                 0x00000000        0x4 esp-idf/esp_app_format/libesp_app_format.a(esp_app_desc.c.obj)
  .text          0x00000000        0x0 esp-idf/esp_app_format/libesp_app_format.a(esp_app_desc.c.obj)
@@ -13784,7 +13784,7 @@ extern_ram_seg   0x3c000020         0x01ffffe0         xrw
 Linker script and memory map
 
                 0x00000000                        IDF_TARGET_ESP32S3 = 0x0
-LOAD CMakeFiles/default.elf.dir/project_elf_src_esp32s3.c.obj
+LOAD CMakeFiles/LCD_display_starter_code.elf.dir/project_elf_src_esp32s3.c.obj
 LOAD esp-idf/xtensa/libxtensa.a
 LOAD esp-idf/esp_driver_gpio/libesp_driver_gpio.a
 LOAD esp-idf/esp_pm/libesp_pm.a
@@ -29718,7 +29718,7 @@ LOAD C:/Espressif/frameworks/esp-idf-v5.5.2/tools/tools/xtensa-esp-elf/esp-14.2.
 
 .xtensa.info    0x00000000       0x38
  *(.xtensa.info)
- .xtensa.info   0x00000000       0x38 CMakeFiles/default.elf.dir/project_elf_src_esp32s3.c.obj
+ .xtensa.info   0x00000000       0x38 CMakeFiles/LCD_display_starter_code.elf.dir/project_elf_src_esp32s3.c.obj
  .xtensa.info   0x00000038        0x0 esp-idf/esp_app_format/libesp_app_format.a(esp_app_desc.c.obj)
  .xtensa.info   0x00000038        0x0 esp-idf/efuse/libefuse.a(esp_efuse_startup.c.obj)
  .xtensa.info   0x00000038        0x0 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
@@ -30095,7 +30095,7 @@ LOAD C:/Espressif/frameworks/esp-idf-v5.5.2/tools/tools/xtensa-esp-elf/esp-14.2.
  *(.eh_frame)
                 0x00000001                        ASSERT (((_iram_end - ORIGIN (iram0_0_seg)) <= LENGTH (iram0_0_seg)), IRAM0 segment data does not fit.)
                 0x00000001                        ASSERT (((_heap_low_start - ORIGIN (dram0_0_seg)) <= LENGTH (dram0_0_seg)), DRAM segment data does not fit.)
-OUTPUT(default.elf elf32-xtensa-le)
+OUTPUT(LCD_display_starter_code.elf elf32-xtensa-le)
 
 Cross Reference Table
 

@@ -27,15 +27,6 @@ void lcd_test(void *pvParameters)
         .font = HD44780_FONT_5X8,
         .lines = 2,
         .pins = {
-#if HELPER_TARGET_IS_ESP8266
-            .rs = GPIO_NUM_12,
-            .e  = GPIO_NUM_14,
-            .d4 = GPIO_NUM_5,
-            .d5 = GPIO_NUM_13,
-            .d6 = GPIO_NUM_16,
-            .d7 = GPIO_NUM_4,
-            .bl = HD44780_NOT_USED
-#else
             .rs = GPIO_NUM_38,
             .e  = GPIO_NUM_37,
             .d4 = GPIO_NUM_36,
@@ -43,7 +34,6 @@ void lcd_test(void *pvParameters)
             .d6 = GPIO_NUM_48,
             .d7 = GPIO_NUM_47,
             .bl = HD44780_NOT_USED
-#endif
         }
     };
 

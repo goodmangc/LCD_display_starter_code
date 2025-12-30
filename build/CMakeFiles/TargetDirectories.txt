@@ -10,7 +10,7 @@ C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/CMakeFiles/m
 C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/CMakeFiles/flash.dir
 C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/CMakeFiles/encrypted-flash.dir
 C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/CMakeFiles/_project_elf_src.dir
-C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/CMakeFiles/default.elf.dir
+C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/CMakeFiles/LCD_display_starter_code.elf.dir
 C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/CMakeFiles/size.dir
 C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/CMakeFiles/size-files.dir
 C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/CMakeFiles/size-components.dir

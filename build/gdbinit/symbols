@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/default.elf
+file C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build/LCD_display_starter_code.elf

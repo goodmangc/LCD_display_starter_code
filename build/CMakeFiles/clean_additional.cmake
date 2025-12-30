@@ -3,13 +3,13 @@ cmake_minimum_required(VERSION 3.16)
 
 if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   file(REMOVE_RECURSE
+  "LCD_display_starter_code.bin"
+  "LCD_display_starter_code.map"
   "bootloader\\bootloader.bin"
   "bootloader\\bootloader.elf"
   "bootloader\\bootloader.map"
   "config\\sdkconfig.cmake"
   "config\\sdkconfig.h"
-  "default.bin"
-  "default.map"
   "esp-idf\\esptool_py\\flasher_args.json.in"
   "esp-idf\\mbedtls\\x509_crt_bundle"
   "flash_app_args"
