@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "LCD_display_starter_code",
-    "project_version":    "693b315-dirty",
+    "project_version":    "40e067e-dirty",
     "project_path":       "C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.5.2/v5.5.2/esp-idf",
     "build_dir":          "C:/ESP32/ESP32_Exercises/LCD_display/LCD_display_starter_code/build",
